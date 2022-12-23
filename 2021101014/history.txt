@@ -1,0 +1,20 @@
+q
+sleep 15&
+ps -p 13548
+q
+sleep 20 &
+jobs -l
+jobs -p
+jobs
+fg 1
+q
+sleep 20 &
+fg 1
+q
+sleep 20 &
+fg 1
+jobs
+jobs
+jobs
+jobs
+bg
